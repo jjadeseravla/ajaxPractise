@@ -20,7 +20,7 @@ window.onload=function(){ //need to put all code in here as this file is executi
       if(this.status == 200){
         console.log(this.responseText);
         document.getElementById('text').innerHTML =
-        this.responseText;
+        this.responseText; // text appears on screen once button clicked
       }
     }
 
