@@ -1,3 +1,12 @@
 .hide-me {
   display: none;
 }
+
+#githubUsers {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#githubUsers ul{
+  list-style: none;
+}

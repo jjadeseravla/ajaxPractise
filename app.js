@@ -7,7 +7,7 @@ http.createServer(function (request, response) { //creates HTTP server object
 
     var filePath = '.' + request.url;
     if (filePath == './')
-        filePath = './indexfetchjson.html'; //if file path is slash let it be index.html
+        filePath = './indexexternalapi.html'; //if file path is slash let it be index.html
 
     var extname = path.extname(filePath);  //get the extension from a file path
     var contentType = 'text/html';
